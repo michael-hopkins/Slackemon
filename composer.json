@@ -1,0 +1,36 @@
+{
+  "license": "MIT",
+  "name": "hopkins/slackemon",
+  "description": "A WIP attempt to implement some form of pokemon battling into slack",
+  "keywords": [
+    "laravel",
+    "slack",
+    "hubot",
+    "api",
+    "webhook",
+    "pokemon",
+    "game"
+  ],
+  "authors": [
+    {
+      "name": "Michael Hopkins",
+      "email": "mhopkins321@gmail.com",
+      "role": "Developer"
+    }
+  ],
+  "require": {
+    "laravel/framework":"5.*",
+    "maknz/slack": "1.1.0"
+  },
+  "autoload": {
+    "psr-4": {
+      "Hopkins\\Slackemon\\": "src"
+    }
+  },
+  "extra": {
+    "branch-alias": {
+      "dev-master": "0.1-dev"
+    }
+  },
+  "minimum-stability": "dev"
+}
